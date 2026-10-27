@@ -67,6 +67,8 @@
     $("[data-location]").textContent = CV.location;
     $("[data-headline]").textContent = CV.headline;
     $("[data-intro]").textContent = CV.intro;
+    $("[data-about-lead]").textContent = CV.about.lead;
+    $("[data-about-body]").textContent = CV.about.body;
     $("[data-year]").textContent = new Date().getFullYear();
     $$("[data-link]").forEach((a) => (a.href = CV.links[a.dataset.link]));
 

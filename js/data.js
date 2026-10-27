@@ -10,47 +10,60 @@ window.CV = {
   study: "BSc Artificial Intelligence @ UvA",
   headline: "I build systems that show their work.",
   intro:
-    "AI engineer and Artificial Intelligence student at the University of Amsterdam. I turn complex ideas into practical, secure and scalable systems: AI agents, workflow automation and security tooling that prove what they claim.",
+    "AI engineer and Artificial Intelligence student at the University of Amsterdam. I build AI agents and automations for real businesses, care about security and privacy, and spend my weekends at hackathons.",
   links: {
     github: "https://github.com/thomasdevving",
     linkedin: "https://www.linkedin.com/in/thomas-nguyen-75447329a/",
   },
 
+  about: {
+    lead:
+      "I'm an AI engineer and an Artificial Intelligence student at the University of Amsterdam. I like turning complex ideas into practical, secure and scalable systems that create real value \u2014 for the companies I work with, for the people who use them, and sometimes in 48 hours on a hackathon stage.",
+    body:
+      "Day to day that means AI agents, workflow automation and process optimisation in Python, TypeScript, Microsoft Azure and n8n. I'm most interested in AI, cybersecurity and privacy, and where technology meets business. Outside of work and uni you'll usually find me at a hackathon, exploring something new, or connecting with other ambitious builders.",
+  },
+
+  // "What I care about" column
   principles: [
     {
-      k: "Agents decide. Code computes.",
-      v: "LLMs choose what to look at. Every number comes from deterministic, testable code, never from a model's guess.",
+      k: "Technology that solves real problems",
+      v: "I start from the problem and the people who have it, not from the tool. The best systems quietly take work off someone's plate.",
     },
     {
-      k: "Verify independently.",
-      v: "A second checker, written separately, cross-examines the first. A failed check can't be argued away.",
+      k: "Secure and private by default",
+      v: "Security, privacy and honest results aren't add-ons. I design them in from day one, whether it's an Azure workflow or a DeFi tool.",
     },
     {
-      k: "Honest by design.",
-      v: "Results carry their own scope. When the evidence isn't there, the output says “could not establish” instead of sounding reassuring.",
+      k: "Where tech meets business",
+      v: "Good engineering understands how organisations actually work: processes, B2B relationships and the decisions behind them.",
+    },
+    {
+      k: "Building with others",
+      v: "Hackathons turn strangers into teammates. As Hackathon Hub's ambassador for Amsterdam I help connect builders across Europe.",
     },
   ],
 
+  // "Hats I wear" cards
   disciplines: [
     {
       n: "01",
-      t: "AI agents & automation",
-      d: "Multi-agent workflows and business-process automation with Python, TypeScript, n8n and Microsoft Azure, built on Agent Framework, Claude, OpenAI and Bedrock.",
+      t: "AI Engineer",
+      d: "Building AI agents and automations inside real businesses: Schiphol Express on Microsoft Azure, Drost Project Groep in real estate, and Big Push before that.",
     },
     {
       n: "02",
-      t: "Security & privacy",
-      d: "DeFi control analysis, Kubernetes NetworkPolicy remediation and privacy-first product design, verified with independent checkers and runtime proof.",
+      t: "Student",
+      d: "BSc Artificial Intelligence at the University of Amsterdam, after a year of Econometrics & Data Science. The theory behind what I build.",
     },
     {
       n: "03",
-      t: "On-chain tooling",
-      d: "Solana upgrade-impact analysis in Rust on LiteSVM, Token-2022 and Meteora DLMM checks, and EVM mainnet-fork proofs with Foundry.",
+      t: "Hackathon builder",
+      d: "Eight hackathons in 2026, solo and in teams of up to six. Two first places at Common S3nse, competing alone with Ripcord.",
     },
     {
       n: "04",
-      t: "Product & web",
-      d: "Full-stack products and client sites with Next.js, Expo, Supabase and Cloudflare Workers, plus a native iOS app in SwiftUI.",
+      t: "Founder & teacher",
+      d: "Building plsteach.me to help people learn practical skills with AI coaching, after teaching lessons and exam training at AthenaSchool.",
     },
   ],
 
@@ -184,8 +197,9 @@ window.CV = {
     {
       id: "plsteachme",
       images: [
+        { src: "assets/img/plsteach-landing.webp", alt: "plsteach.me landing page: a tutorial shows you, plsteach.me guides you" },
+        { src: "assets/img/plsteach-skills.webp", alt: "plsteach.me lesson library: tie a tie, shave, trim your beard" },
         { src: "assets/img/plsteach-companions.webp", alt: "plsteach.me companion mascots" },
-        { src: "assets/img/plsteach-mascots.webp", alt: "plsteach.me mascots in expressive poses" },
       ],
       name: "plsteach.me",
       year: "2026",
