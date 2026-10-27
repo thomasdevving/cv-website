@@ -5,7 +5,7 @@ A hand-built, dependency-free CV site. Strict black and white, hard edges, lots 
 ## Edit the content
 
 Everything you read on the site lives in [`js/data.js`](js/data.js): roles, education,
-projects, hackathons, stack. Change it there and the page re-renders from it. No build step.
+projects (with their `images`), hackathons, photos, stack. Change it there and the page re-renders from it. No build step.
 
 ## Run locally
 
@@ -21,14 +21,10 @@ Enable it once under **Settings → Pages → Source: GitHub Actions**.
 
 ## What moves
 
-- Loader counter that wipes away into the hero
-- Hero dot field that bends around the cursor, with a live crosshair readout
-- Letter-by-letter mask reveals and glyph scrambles on hover
-- Marquee whose speed and direction follow your scroll
-- Project list with a black/white wipe and a cursor-following preview that plays a
-  generative animation unique to each project
-- Slide-in project drawer, timeline rail that fills as you scroll, counting stats,
-  tilting hackathon cards, magnetic buttons and a square difference-blend cursor
+The header is the show: a loader counter, a dot field that bends around the cursor with a
+live crosshair, letter-by-letter name reveal and glyph scrambles. Below it, motion stays
+quiet: sections fade up as they enter, stats count once, the timeline rail fills as you
+scroll, and project screenshots and photos go from greyscale to colour on hover.
 
 All of it respects `prefers-reduced-motion`.
 
@@ -38,6 +34,7 @@ All of it respects `prefers-reduced-motion`.
 index.html        page skeleton
 css/style.css     all styling
 js/data.js        all content
+js/patterns.js    line drawings for projects without screenshots
 js/main.js        rendering + animation
-assets/           favicon
+assets/img/       project screenshots and photos (webp)
 ```

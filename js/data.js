@@ -71,14 +71,6 @@ window.CV = {
       tags: ["Product", "AI", "Full-stack"],
     },
     {
-      when: "Jul 2026 — Now",
-      role: "Strategic Partner — Inter Compass",
-      org: "Drost Project Groep B.V.",
-      meta: "Hybrid",
-      d: "Designed and developed intake and CRM structures for the real-estate sector, focused on process optimisation, data flows and scalability. Built AI agents that automate workflows and streamline operations.",
-      tags: ["Agents", "Real estate", "Data"],
-    },
-    {
       when: "Jun 2026 — Now",
       role: "AI Engineer",
       org: "Schiphol Express",
@@ -87,12 +79,12 @@ window.CV = {
       tags: ["Azure", "Python", "TypeScript"],
     },
     {
-      when: "Apr — May 2026",
-      role: "Teacher & Exam Trainer",
-      org: "AthenaSchool",
-      meta: "Part-time · On-site",
-      d: "Taught lessons and exam-preparation sessions, explaining complex concepts to groups clearly and engagingly.",
-      tags: ["Teaching", "Communication"],
+      when: "Jul 2026 — Now",
+      role: "Strategic Partner — Inter Compass",
+      org: "Drost Project Groep B.V.",
+      meta: "Hybrid",
+      d: "Designed and developed intake and CRM structures for the real-estate sector, focused on process optimisation, data flows and scalability. Built AI agents that automate workflows and streamline operations.",
+      tags: ["Agents", "Real estate", "Data"],
     },
     {
       when: "Nov 2025 — Jun 2026",
@@ -101,6 +93,14 @@ window.CV = {
       meta: "Part-time · Amsterdam",
       d: "Developed software with Python, n8n and other tools to automate business processes with AI, and learned how B2B relationships and organisations really operate.",
       tags: ["n8n", "Python", "Automation"],
+    },
+    {
+      when: "Apr — May 2026",
+      role: "Teacher & Exam Trainer",
+      org: "AthenaSchool",
+      meta: "Part-time · On-site",
+      d: "Taught lessons and exam-preparation sessions, explaining complex concepts to groups clearly and engagingly.",
+      tags: ["Teaching", "Communication"],
     },
   ],
 
@@ -118,6 +118,12 @@ window.CV = {
   projects: [
     {
       id: "ripcord",
+      images: [
+        { src: "assets/img/photo-pitch.webp", alt: "Thomas presenting Ripcord at the Common S3nse Top 10 Showcase" },
+        { src: "assets/img/photo-award.webp", alt: "Thomas on stage at Common S3nse as Ripcord wins Best Security" },
+        { src: "assets/img/ripcord-report.webp", alt: "Ripcord report for Compound III cUSDCv3: a two-day notice route against $540M movable on a fork" },
+        { src: "assets/img/ripcord-index.webp", alt: "Ripcord calibration set across 26 mainnet protocols" },
+      ],
       name: "Ripcord",
       year: "2026",
       kind: "Hackathon",
@@ -146,6 +152,10 @@ window.CV = {
     },
     {
       id: "offscript",
+      images: [
+        { src: "assets/img/offscript-3d.webp", alt: "OFFSCRIPT 3D pitch view of an alternative continuation" },
+        { src: "assets/img/offscript-decision.webp", alt: "OFFSCRIPT casual-fan mode comparing options at a key decision" },
+      ],
       name: "OFFSCRIPT",
       year: "2026",
       kind: "Hackathon",
@@ -173,6 +183,10 @@ window.CV = {
     },
     {
       id: "plsteachme",
+      images: [
+        { src: "assets/img/plsteach-companions.webp", alt: "plsteach.me companion mascots" },
+        { src: "assets/img/plsteach-mascots.webp", alt: "plsteach.me mascots in expressive poses" },
+      ],
       name: "plsteach.me",
       year: "2026",
       kind: "Product",
@@ -200,6 +214,11 @@ window.CV = {
     },
     {
       id: "multilond",
+      images: [
+        { src: "assets/img/multilond-cover.webp", alt: "Multilönd AI cover: a camera checking an assembly step" },
+        { src: "assets/img/multilond-product.webp", alt: "Multilönd AI product page" },
+        { src: "assets/img/multilond-station.webp", alt: "Multilönd AI worker station with a locked step" },
+      ],
       name: "Multilönd AI",
       year: "2026",
       kind: "Hackathon",
@@ -224,6 +243,11 @@ window.CV = {
     },
     {
       id: "eplyx",
+      images: [
+        { src: "assets/img/eplyx-hero.webp", alt: "Eplyx landing page: know what changes before you deploy" },
+        { src: "assets/img/eplyx-dashboard.webp", alt: "Eplyx dashboard with a failed upgrade check" },
+        { src: "assets/img/eplyx-comparison.webp", alt: "Eplyx baseline versus candidate comparison" },
+      ],
       name: "Eplyx",
       year: "2026",
       kind: "Product",
@@ -272,6 +296,10 @@ window.CV = {
     },
     {
       id: "eplyx-sta",
+      images: [
+        { src: "assets/img/sta-result.webp", alt: "Eplyx Stock Transition Assurance landing page" },
+        { src: "assets/img/sta-after.webp", alt: "Eplyx STA analysis page" },
+      ],
       name: "Eplyx STA",
       year: "2026",
       kind: "Hackathon",
@@ -296,6 +324,9 @@ window.CV = {
     },
     {
       id: "ring-drive",
+      images: [
+        { src: "assets/img/ring-phones.webp", alt: "Ring Drive iPhone screens: driving, parked and review" },
+      ],
       name: "Ring Drive",
       year: "2026",
       kind: "Hackathon",
@@ -320,6 +351,10 @@ window.CV = {
     },
     {
       id: "burping-cows",
+      images: [
+        { src: "assets/img/burping-phones.webp", alt: "Burping Cows app screens: farm profile, results and action plan" },
+        { src: "assets/img/burping-figma.webp", alt: "Burping Cows illustration from the Figma design" },
+      ],
       name: "Burping Cows",
       year: "2026",
       kind: "Hackathon",
@@ -367,6 +402,9 @@ window.CV = {
     },
     {
       id: "newera",
+      images: [
+        { src: "assets/img/newera-og.webp", alt: "Studio NewEra brand mark with gold arc" },
+      ],
       name: "Studio NewEra",
       year: "2026",
       kind: "Client",
@@ -422,6 +460,12 @@ window.CV = {
     { name: "Climate Hack-tion 2026", project: "Burping Cows", result: "Team of two", date: "Oct 2026" },
     { name: "Stocklana", project: "Eplyx STA", result: "", date: "Sep 2026" },
     { name: "Nebius × NVIDIA Global AI Hackathon", project: "Personal AI track", result: "In progress", date: "Oct 2026" },
+  ],
+
+  photos: [
+    { src: "assets/img/photo-award.webp", alt: "Thomas on stage under a Best Security slide for Ripcord", caption: "Best Security \u2014 Ripcord, Common S3nse" },
+    { src: "assets/img/photo-pitch.webp", alt: "Thomas presenting Ripcord from a lectern", caption: "Pitching Ripcord in the Top 10 Showcase" },
+    { src: "assets/img/photo-building.webp", alt: "Thomas working at a table with two collaborators", caption: "Heads down, building" },
   ],
 
   stack: [

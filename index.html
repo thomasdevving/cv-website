@@ -28,14 +28,14 @@
   </div>
 
   <!-- Cursor -->
-  <div class="cursor" aria-hidden="true"><span class="cursor__label mono"></span></div>
+  <div class="cursor" aria-hidden="true"></div>
 
   <!-- Scroll progress -->
   <div class="progress" aria-hidden="true"><i></i></div>
 
   <!-- Nav -->
   <header class="nav">
-    <a href="#top" class="nav__logo mono" data-magnetic>TN<span>/</span>CV</a>
+    <a href="#top" class="nav__logo mono">TN<span>/</span>CV</a>
     <nav class="nav__links mono" aria-label="Sections">
       <a href="#about" data-scramble>About</a>
       <a href="#work" data-scramble>Work</a>
@@ -61,24 +61,19 @@
           <p class="hero__headline" data-headline></p>
           <p class="hero__intro" data-intro></p>
           <div class="hero__cta">
-            <a href="#projects" class="btn" data-magnetic data-cursor="Scroll">See the work <span class="btn__arrow">↓</span></a>
-            <a class="btn btn--ghost" data-link="github" target="_blank" rel="noopener" data-magnetic data-cursor="Open">GitHub ↗</a>
+            <a href="#projects" class="btn">See the work <span class="btn__arrow">↓</span></a>
+            <a class="btn btn--ghost" data-link="github" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
         </div>
       </div>
       <div class="hero__scroll mono" aria-hidden="true"><span>Scroll</span><i></i></div>
     </section>
 
-    <!-- Marquee -->
-    <div class="marquee" aria-hidden="true">
-      <div class="marquee__track" data-marquee></div>
-    </div>
-
     <!-- About -->
     <section class="section about invert" id="about" data-section="About">
       <div class="section__head">
         <span class="mono section__num">01</span>
-        <h2 class="section__title" data-split>What I do</h2>
+        <h2 class="section__title">What I do</h2>
       </div>
       <div class="about__grid">
         <p class="about__lead reveal" data-lead>
@@ -94,7 +89,7 @@
     <section class="section work" id="work" data-section="Work">
       <div class="section__head">
         <span class="mono section__num">02</span>
-        <h2 class="section__title" data-split>Experience</h2>
+        <h2 class="section__title">Experience</h2>
       </div>
       <div class="timeline">
         <div class="timeline__rail" aria-hidden="true"><i data-rail></i></div>
@@ -116,30 +111,31 @@
     <section class="section projects" id="projects" data-section="Projects">
       <div class="section__head">
         <span class="mono section__num">03</span>
-        <h2 class="section__title" data-split>Selected projects</h2>
+        <h2 class="section__title">Selected projects</h2>
         <div class="filters mono" role="tablist" aria-label="Filter projects" data-filters></div>
       </div>
-      <ul class="plist" data-projects></ul>
-      <div class="preview" aria-hidden="true">
-        <canvas class="preview__canvas"></canvas>
-        <div class="preview__meta mono"><span data-preview-kind></span><span data-preview-year></span></div>
-      </div>
+      <div class="pgrid" data-projects></div>
     </section>
 
     <!-- Hackathons -->
     <section class="section hacks invert" id="hackathons" data-section="Hackathons">
       <div class="section__head">
         <span class="mono section__num">04</span>
-        <h2 class="section__title" data-split>Hackathons</h2>
+        <h2 class="section__title">Hackathons</h2>
       </div>
       <div class="hacks__grid" data-hackathons></div>
+      <div class="photos__head">
+        <h3 class="photos__title">In the room</h3>
+        <p class="mono photos__sub">Pitching, winning and building</p>
+      </div>
+      <div class="photos" data-photos></div>
     </section>
 
     <!-- Stack -->
     <section class="section stack" id="stack" data-section="Stack">
       <div class="section__head">
         <span class="mono section__num">05</span>
-        <h2 class="section__title" data-split>Toolbox</h2>
+        <h2 class="section__title">Toolbox</h2>
       </div>
       <div class="stack__grid" data-stack></div>
     </section>
@@ -149,19 +145,19 @@
       <div class="contact__inner">
         <span class="mono section__num">06</span>
         <p class="mono contact__kicker">Open to roles, freelance and hackathon teams</p>
-        <a class="contact__big" data-link="linkedin" target="_blank" rel="noopener" data-cursor="Say hi">
-          <span class="contact__row" data-drift="-1">Let's build</span>
-          <span class="contact__row contact__row--outline" data-drift="1">something true</span>
+        <a class="contact__big" data-link="linkedin" target="_blank" rel="noopener">
+          <span class="contact__row">Let's build</span>
+          <span class="contact__row contact__row--outline">something true</span>
         </a>
         <div class="contact__links mono">
-          <a data-link="linkedin" target="_blank" rel="noopener" data-magnetic data-scramble>LinkedIn ↗</a>
-          <a data-link="github" target="_blank" rel="noopener" data-magnetic data-scramble>GitHub ↗</a>
+          <a data-link="linkedin" target="_blank" rel="noopener" >LinkedIn ↗</a>
+          <a data-link="github" target="_blank" rel="noopener" >GitHub ↗</a>
         </div>
       </div>
       <footer class="footer mono">
         <span>© <span data-year></span> Thomas Nguyen</span>
         <span>Hand-built. No framework. Black &amp; white.</span>
-        <a href="#top" data-scramble>Back to top ↑</a>
+        <a href="#top">Back to top ↑</a>
       </footer>
     </section>
   </main>
@@ -170,7 +166,7 @@
   <div class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" hidden>
     <div class="drawer__backdrop" data-close></div>
     <article class="drawer__panel">
-      <button class="drawer__close mono" data-close data-cursor="Close">Close ✕</button>
+      <button class="drawer__close mono" data-close>Close ✕</button>
       <div class="drawer__body" data-drawer></div>
     </article>
   </div>
@@ -181,6 +177,7 @@
   </noscript>
 
   <script src="js/data.js"></script>
+  <script src="js/patterns.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
