@@ -58,7 +58,7 @@ window.CV = {
     {
       n: "03",
       t: "Hackathon builder",
-      d: "Eight hackathons in 2026, solo and in teams of up to six. Two first places at Common S3nse, competing alone with Ripcord.",
+      d: "Nine hackathons in 2026, solo and in teams of up to six. Two first places at Common S3nse with Ripcord, and third in the Superteam NL track at Colosseum with Eplyx.",
     },
     {
       n: "04",
@@ -69,7 +69,7 @@ window.CV = {
 
   stats: [
     { v: 2, s: "×", l: "First place at Common S3nse" },
-    { v: 8, s: "", l: "Hackathons in 2026" },
+    { v: 9, s: "", l: "Hackathons in 2026" },
     { v: 400, s: "+", l: "Commits this year" },
     { v: 360, s: "+", l: "Automated tests written" },
   ],
@@ -264,8 +264,10 @@ window.CV = {
       ],
       name: "Eplyx",
       year: "2026",
-      kind: "Product",
-      builtFor: "Solana developers and protocol teams, before they deploy",
+      kind: "Hackathon",
+      award: "3rd place \u00b7 Superteam NL track",
+      badge: "3rd place",
+      builtFor: "Colosseum hackathon, for Solana developers and protocol teams before they deploy",
       line: "See the consequences of an upgrade before mainnet does.",
       summary:
         "Program upgrades, token migrations and fee changes can alter outcomes in ways the IDL, account layout or a bytecode diff won't reveal. Eplyx runs the baseline and candidate builds against the same retained state and reports the measured consequences, such as two successful transactions that silently make a lending position liquidatable.",
@@ -344,7 +346,7 @@ window.CV = {
       name: "Ring Drive",
       year: "2026",
       kind: "Hackathon",
-      builtFor: "Amazon App Dev Hackathon 2026",
+      builtFor: "Amazon Build, Ship, Shape hackathon 2026",
       line: "Your home, in one sentence, while you drive.",
       summary:
         "An iPhone app and backend that turn Ring camera activity into short spoken updates for a driver, and flag expected activity that didn't happen, like a child not seen leaving for school. The driver responds by tap or Siri; video only unlocks once parked.",
@@ -372,7 +374,7 @@ window.CV = {
       name: "Burping Cows",
       year: "2026",
       kind: "Hackathon",
-      builtFor: "Climate Hack-tion 2026, co-built with Anthony Tran for Australian dairy and piggery farmers",
+      builtFor: "Junction Climate Hack-tion 2026, co-built with Anthony Tran for Australian dairy and piggery farmers",
       line: "From methane to money, minus the mystery.",
       summary:
         "A mobile app that tells a farm operator whether capturing methane from animal effluent could earn Australian Carbon Credit Units, and whether it would pay off. A nine-step assessment covers baseline, scheme screening, technical estimate, financial scenario and an action plan, with a landing page that takes farmers from first question to next step.",
@@ -415,33 +417,6 @@ window.CV = {
       pattern: "compass",
     },
     {
-      id: "newera",
-      images: [
-        { src: "assets/img/newera-og.webp", alt: "Studio NewEra brand mark with gold arc" },
-      ],
-      name: "Studio NewEra",
-      year: "2026",
-      kind: "Client",
-      builtFor: "Studio NewEra, a Dutch B2B kitchen studio",
-      line: "Square corners, gold arcs, zero tracking.",
-      summary:
-        "Marketing site, nine-step process page and project-request flow for a company that designs, supplies and installs kitchens for business clients. Forms validate with shared zod schemas and accept attachments; email and storage sit behind pluggable adapters.",
-      highlights: [
-        "Request form with up to 5 × 10 MB attachments",
-        "Pluggable adapters: Resend for email, S3/Supabase/Azure for storage",
-        "Groundwork for a three-role customer portal (clients, team, installers)",
-        "Subtle motion that respects reduced-motion preferences",
-      ],
-      metrics: [
-        { v: "8", l: "Pages" },
-        { v: "0", l: "Tracking scripts" },
-        { v: "Edge", l: "Cloudflare Workers" },
-      ],
-      stack: ["Next.js 16", "TypeScript", "Tailwind CSS v4", "Motion", "react-hook-form", "zod", "Cloudflare Workers"],
-      links: [{ label: "Source", url: "https://github.com/thomasdevving/newera-website" }],
-      pattern: "arc",
-    },
-    {
       id: "gpa-defenders",
       name: "GPA Defenders",
       year: "2026",
@@ -467,11 +442,12 @@ window.CV = {
 
   hackathons: [
     { name: "Common S3nse — CryptoCanal", project: "Ripcord", result: "1st Security · 1st Mobula", date: "Sep 2026", win: true },
+    { name: "Colosseum \u2014 Superteam NL track", project: "Eplyx", result: "3rd place", date: "2026", win: true },
     { name: "AMD Developer Hackathon: ACT III", project: "Multilönd AI", result: "Team of six", date: "Oct 2026" },
     { name: "Microsoft × Premier League — Inside the Game", project: "OFFSCRIPT", result: "", date: "Oct 2026" },
     { name: "GitLab — Life After Code", project: "Clavure", result: "", date: "Oct 2026" },
-    { name: "Amazon App Dev Hackathon", project: "Ring Drive", result: "", date: "Oct 2026" },
-    { name: "Climate Hack-tion 2026", project: "Burping Cows", result: "Team of two", date: "Oct 2026" },
+    { name: "Amazon Build, Ship, Shape", project: "Ring Drive", result: "", date: "Oct 2026" },
+    { name: "Junction Climate Hack-tion", project: "Burping Cows", result: "Team of two", date: "Oct 2026" },
     { name: "Stocklana", project: "Eplyx STA", result: "", date: "Sep 2026" },
     { name: "Nebius × NVIDIA Global AI Hackathon", project: "Personal AI track", result: "In progress", date: "Oct 2026" },
   ],

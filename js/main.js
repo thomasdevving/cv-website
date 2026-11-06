@@ -149,7 +149,7 @@
           <button class="pcard__btn" data-open="${i}" aria-haspopup="dialog">
             <span class="pcard__media">${media(p)}</span>
             <span class="pcard__meta mono"><span>${pad(i + 1)}</span><span>${esc(p.kind)} · ${esc(p.year)}</span></span>
-            <span class="pcard__name">${esc(p.name)}${p.award ? '<span class="pcard__award mono">Winner</span>' : ""}</span>
+            <span class="pcard__name">${esc(p.name)}${p.award ? `<span class="pcard__award mono">${esc(p.badge || "Winner")}</span>` : ""}</span>
             <span class="pcard__line">${esc(p.line)}</span>
             <span class="pcard__for mono">${esc(p.builtFor)}</span>
           </button>
