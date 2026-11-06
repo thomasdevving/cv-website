@@ -93,9 +93,9 @@ window.CV = {
     },
     {
       when: "Jul 2026 — Now",
-      role: "Strategic Partner — Inter Compass",
+      role: "Freelance AI Engineer",
       org: "Drost Project Groep B.V.",
-      meta: "Hybrid",
+      meta: "Inter Compass · Hybrid",
       d: "Designed and developed intake and CRM structures for the real-estate sector, focused on process optimisation, data flows and scalability. Built AI agents that automate workflows and streamline operations.",
       tags: ["Agents", "Real estate", "Data"],
     },
