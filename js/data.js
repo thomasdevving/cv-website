@@ -442,7 +442,7 @@ window.CV = {
 
   hackathons: [
     { name: "Common S3nse — CryptoCanal", project: "Ripcord", result: "1st Security · 1st Mobula", date: "Sep 2026", win: true },
-    { name: "Colosseum \u2014 Superteam NL track", project: "Eplyx", result: "3rd place", date: "2026", win: true },
+    { name: "Colosseum \u2014 Superteam NL track", project: "Eplyx", result: "3rd place", date: "Oct 2026", win: true },
     { name: "AMD Developer Hackathon: ACT III", project: "Multilönd AI", result: "Team of six", date: "Oct 2026" },
     { name: "Microsoft × Premier League — Inside the Game", project: "OFFSCRIPT", result: "", date: "Oct 2026" },
     { name: "GitLab — Life After Code", project: "Clavure", result: "", date: "Oct 2026" },
